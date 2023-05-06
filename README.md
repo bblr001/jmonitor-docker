@@ -1,2 +1,3 @@
-# jmonitor-docker
-use jtop in docker for jetson TX2
+#this project used to log GPU stats using jtop
+
+#docker run command : docker run --rm -v /run/jtop.sock:/run/jtop.sock rbonghi/jetson_stats:latest
